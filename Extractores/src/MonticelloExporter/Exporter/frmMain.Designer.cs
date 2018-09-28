@@ -48,7 +48,7 @@
             this.btnventasGenerales.Location = new System.Drawing.Point(36, 252);
             this.btnventasGenerales.Name = "btnventasGenerales";
             this.btnventasGenerales.Size = new System.Drawing.Size(116, 50);
-            this.btnventasGenerales.TabIndex = 0;
+            this.btnventasGenerales.TabIndex = 5;
             this.btnventasGenerales.Text = "Ventas generales agrupadas";
             this.btnventasGenerales.UseVisualStyleBackColor = true;
             this.btnventasGenerales.Click += new System.EventHandler(this.btnventasGenerales_Click);
@@ -58,7 +58,7 @@
             this.btnVentasDetalle.Location = new System.Drawing.Point(179, 252);
             this.btnVentasDetalle.Name = "btnVentasDetalle";
             this.btnVentasDetalle.Size = new System.Drawing.Size(116, 50);
-            this.btnVentasDetalle.TabIndex = 1;
+            this.btnVentasDetalle.TabIndex = 6;
             this.btnVentasDetalle.Text = "Ventas detalle agrupadas";
             this.btnVentasDetalle.UseVisualStyleBackColor = true;
             this.btnVentasDetalle.Click += new System.EventHandler(this.btnVentasDetalle_Click);
@@ -92,7 +92,7 @@
             this.dtpFechaHasta.Location = new System.Drawing.Point(151, 57);
             this.dtpFechaHasta.Name = "dtpFechaHasta";
             this.dtpFechaHasta.Size = new System.Drawing.Size(92, 20);
-            this.dtpFechaHasta.TabIndex = 2;
+            this.dtpFechaHasta.TabIndex = 3;
             // 
             // lblFechaDesde
             // 
@@ -110,7 +110,7 @@
             this.dtpFechaDesde.Location = new System.Drawing.Point(151, 20);
             this.dtpFechaDesde.Name = "dtpFechaDesde";
             this.dtpFechaDesde.Size = new System.Drawing.Size(92, 20);
-            this.dtpFechaDesde.TabIndex = 0;
+            this.dtpFechaDesde.TabIndex = 2;
             // 
             // lblStatus
             // 
@@ -171,7 +171,7 @@
             this.cbPuntoDeVenta.Location = new System.Drawing.Point(152, 24);
             this.cbPuntoDeVenta.Name = "cbPuntoDeVenta";
             this.cbPuntoDeVenta.Size = new System.Drawing.Size(121, 21);
-            this.cbPuntoDeVenta.TabIndex = 6;
+            this.cbPuntoDeVenta.TabIndex = 1;
             this.cbPuntoDeVenta.SelectedIndexChanged += new System.EventHandler(this.cbPuntoDeVenta_SelectedIndexChanged);
             // 
             // lvlPuntoDeVenta
@@ -199,7 +199,7 @@
             this.MaximizeBox = false;
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Monticello Sales Exporter - v1.1";
+            this.Text = "Monticello Sales Exporter - v1.4";
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.gbFechas.ResumeLayout(false);
             this.gbFechas.PerformLayout();
